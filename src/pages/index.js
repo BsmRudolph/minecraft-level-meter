@@ -2,6 +2,7 @@ import * as React from "react";
 import { Container, TextField, Typography } from "@material-ui/core";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import Seo from "../components/seo";
 
 const meterDescription = {
   marginTop: "-40px",
@@ -76,6 +77,7 @@ class LevelMeter extends React.Component {
     const targetExp = exp[targetLevel];
     const requiredExp = Math.max(targetExp - currentExp, 0);
     const progress = currentLevel < targetLevel ? Math.round((currentExp / targetExp) * 10000) / 100 : 100;
+
     return (
       <Container maxWidth="xs">
         <h1 align="center">LEVEL COUNTER</h1>
@@ -117,6 +119,7 @@ class LevelMeter extends React.Component {
 const IndexPage = () => {
   return (
     <main style={{ minWidth: "320px" }}>
+      <Seo />
       <LevelMeter></LevelMeter>
     </main>
   );

@@ -1,8 +1,14 @@
 module.exports = {
   pathPrefix: "/minecraft-level-meter",
   siteMetadata: {
-    siteUrl: "https://BsmRudolph.github.io/minecraft-level-meter/",
     title: "Minecraft Level Meter",
+    titleTemplate: "%s - Minecraft Level Meter",
+    lang: "ja",
+    description: "",
+    url: "https://BsmRudolph.github.io/minecraft-level-meter",
+    siteUrl: "https://BsmRudolph.github.io/minecraft-level-meter",
+    image: "/icons/icon-96x96.png",
+    twitterUsername: "@BsmRudolph",
   },
   plugins: [
     "gatsby-plugin-material-ui",
