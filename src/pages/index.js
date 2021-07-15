@@ -105,10 +105,10 @@ class LevelMeter extends React.Component {
         </form>
         <div align="center" style={{ marginTop: "50px", color: "rgba(0, 0, 0, 0.54)" }}>
           <div>
-            <Typography variant="caption">敵を倒す場合は残り {this.toLocalString(Math.round(requiredExp / 5) || 0)} 体くらい</Typography>
+            <Typography variant="caption">敵を倒す場合はあと {this.toLocalString(Math.round(requiredExp / 5) || 0)} 体くらいです。</Typography>
           </div>
           <div>
-            <Typography variant="caption">石炭を探す場合は残り {this.toLocalString(Math.round(requiredExp / 3) || 0)} 個くらい</Typography>
+            <Typography variant="caption">石炭を探す場合はあと {this.toLocalString(Math.round(requiredExp / 1) || 0)} 個くらいです。</Typography>
           </div>
         </div>
       </Container>

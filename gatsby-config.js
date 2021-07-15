@@ -4,10 +4,10 @@ module.exports = {
     title: "Minecraft Level Meter",
     titleTemplate: "%s - Minecraft Level Meter",
     lang: "ja",
-    description: "",
+    description: "目標レベルまでの進捗をパーセンテージで表示します。",
     url: "https://BsmRudolph.github.io/minecraft-level-meter",
     siteUrl: "https://BsmRudolph.github.io/minecraft-level-meter",
-    image: "/icons/icon-96x96.png",
+    image: "/images/thumbnail.png",
     twitterUsername: "@BsmRudolph",
   },
   plugins: [
