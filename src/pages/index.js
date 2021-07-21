@@ -80,7 +80,7 @@ class LevelMeter extends React.Component {
 
     return (
       <Container maxWidth="xs">
-        <h1 align="center">LEVEL COUNTER</h1>
+        <h1 align="center">FUMATANPE METER</h1>
         <CircularProgressbar
           value={progress}
           text={`${progress}%`}
